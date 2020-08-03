@@ -1,0 +1,487 @@
+	/* Attributes for the whole body */
+.mainBody 
+{
+	background-color: white;
+	margin: 0;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+/* ------------------------------------------------- START --------------------------------------------------------- */
+
+	/* The attributes for the navigation bar*/
+.navBar {
+	background-color: rgba(0, 0, 0, 0.9);
+	position: fixed;
+	top: 0;
+	list-style-type: none;
+	text-align: center;
+	height: 35px;
+	cursor: default;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	overflow: hidden;
+	/*Z-index to make the Nav bar go over all text*/
+	z-index: 20;
+}
+
+	
+	/* All the attributes for the default links within the navigation bar */
+.navBar a {
+	color: lightgrey;
+	font-size: 15px;
+	-webkit-tap-highlight-color: transparent;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	position: relative;
+	text-decoration: none;
+	width: 11%;
+	float: none;
+	width: 100%;
+	display: inline;
+	padding: 10px 20px;	
+}
+	
+	/* Attributes for the links when the mouse hovers over it */
+.navBar a:hover {
+	color: lightgray;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.icon {
+	display: none;
+}
+
+/* -------------------------------------------------- END ---------------------------------------------------------- */
+/* ------------------------------------------------- START --------------------------------------------------------- */
+
+.applePics1 #iphoneSE img{
+	display: flex;
+	padding: 0 0 10px 0;
+	width: 100%;
+}
+
+#iphoneSE .firstTxt{
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	font-size: 38px;
+	color: white;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+#iphoneSE .secondTxt{
+	position: absolute;
+	top: 28%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: white;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+#iphoneSE .thirdTxt {
+	position: absolute;
+	top: 36%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+	color: blue;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+#iphoneSE .thirdTxt:hover {
+	text-decoration: underline;
+}
+
+/* -------------------------------------------------- END ---------------------------------------------------------- */
+/* ------------------------------------------------- START --------------------------------------------------------- */
+
+.applePics2 #iphone11 img{
+	display: flex;
+	padding: 0 0 10px 0;
+	width: 100%;
+}
+
+#iphone11 .fourthTxt{
+	position: absolute;
+	top: 103%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	font-size: 38px;
+	color: black;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+#iphone11 .fifthTxt{
+	position: absolute;
+	top: 111%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: black;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+#iphone11 .sixthTxt {
+	position: absolute;
+	top: 119%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+	color: blue;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+#iphone11 .sixthTxt:hover {
+	text-decoration: underline;
+}
+
+/* -------------------------------------------------- END ---------------------------------------------------------- */
+/* ------------------------------------------------- START --------------------------------------------------------- */
+
+.applePics3 #iphone11pro img{
+	display: flex;
+	padding: 0 0 10px 0;
+	width: 100%;
+}
+
+#iphone11pro .seventhTxt{
+	position: absolute;
+	top: 180%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+	font-size: 38px;
+	color: white;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+#iphone11pro .eighthTxt{
+	position: absolute;
+	top: 188%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: white;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+#iphone11pro .ninthTxt {
+	position: absolute;
+	top: 196%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+	color: blue;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+#iphone11pro .ninthTxt:hover {
+	text-decoration: underline;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.columnPics {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+/* -------------------------------------------------- END ---------------------------------------------------------- */
+/* ------------------------------------------------- START --------------------------------------------------------- */
+
+#appleWatch img {
+	margin: 0 10px 0 10px;
+}
+
+#appleWatch .watchTxt{
+	position: absolute;
+	top: 245%;
+	left: 11%; 
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: black;
+	text-align: center;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+#appleWatch .watchTxt p {
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.appleWatchLink {
+	color: blue;
+	font-size: 17px;
+}
+
+.appleWatchLink:hover {
+	text-decoration: underline;
+}
+
+/* -------------------------------------------------- END ---------------------------------------------------------- */
+/* ------------------------------------------------- START --------------------------------------------------------- */
+
+#ipadPro img {
+	margin: 0 10px 0 10px;
+}
+
+#ipadPro .ipadProTxt {
+	position: absolute;
+	top: 233%;
+	left: 76%; 
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: black;
+	text-align: center;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+#ipadPro .ipadProTxt p {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.ipadProLink {
+	color: blue;
+	font-size: 17px;
+	position: absolute;
+	top: 240%;
+}
+
+.ipadProLink:hover {
+	text-decoration: underline;
+}
+
+/* -------------------------------------------------- END ---------------------------------------------------------- */
+/* ------------------------------------------------- START --------------------------------------------------------- */
+
+#appleTV img {
+	margin: 0 10px 0 10px;
+}
+
+#appleTV .appleTvTxt {
+	position: absolute;
+	top: 298%;
+	left: 18%; 
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: black;
+	text-align: center;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+#appleTV .appleTvTxt p {
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.appleTvLink {
+	color: blue;
+	font-size: 17px;
+}
+
+.appleTvLink:hover {
+	text-decoration: underline;
+}
+
+/* -------------------------------------------------- END ---------------------------------------------------------- */
+/* ------------------------------------------------- START --------------------------------------------------------- */
+
+#macbookPro img {
+	margin: 0 10px 0 10px;
+}
+
+#macbookPro .macbookProTxt {
+	position: absolute;
+	top: 299%;
+	left: 75%; 
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+#macbookPro .macbookProTxt p {
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.macbookProLink {
+	color: white;
+	font-size: 17px;
+}
+
+.macbookProLink:hover {
+	text-decoration: underline;
+}
+
+/* -------------------------------------------------- END ---------------------------------------------------------- */
+/* ------------------------------------------------- START --------------------------------------------------------- */
+
+.gridPicsRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* -------------------------------------------------- END ---------------------------------------------------------- */
+/* ------------------------------------------------- START --------------------------------------------------------- */
+
+.bottomInformation {
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 10px;
+	background: rgba(128, 128, 128, 0.15);
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.bottomInformation p {
+	color: gray;
+	font-size: 13px;
+}
+
+.bottomInformation > p > a {
+	color: blue;
+	text-decoration: none;
+}
+
+.bottomInformation > p > a:hover {
+	text-decoration: underline;
+}
+
+.footColumn li a{
+	text-decoration: none;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-size: 13px;
+	color: gray;
+	text-align: left;
+	margin-bottom: .8em;
+}
+
+.footColumn li {
+	text-decoration: none;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-size: 13px;
+	color: black;
+	list-style-type: none;
+	text-align: left;
+}
+
+ul{
+	padding-inline-start: 0;
+	list-style-type: none;
+	margin-block-start: 0;
+}
+
+
+#bottomRows a:hover{
+	text-decoration: underline;
+}
+
+#bottomRows {
+	column-count: 4;
+	padding: 10px 1px;
+	width: 100%;
+}
+
+
+/* -------------------------------------------------- END ---------------------------------------------------------- */
+/* ------------------------------------------------- START --------------------------------------------------------- */
+
+.lastInfo p{
+		display: inline;
+		text-decoration: none;
+		font-size: 13px;
+		color: gray;
+		width: 100%;
+		padding: 5px 30px 5px 0;
+	}
+	
+.lastInfo p a{
+		text-decoration: none;
+		font-size: 13px;
+		color: gray;
+	}
+	
+.lastInfo p a:hover{
+		text-decoration: underline;
+	}
+
+/* --------------------------------------------------- END --------------------------------------------------------- */
+
+	/* --------- These are the specific settings if the screen is has a maximum width of 860px --------------*/
+@media screen and (max-width: 860px)
+{
+
+	.navBar {
+	  overflow: hidden;
+	  background-color: #333;
+	  position: relative;
+	}
+
+	.navBar #neededLinks {
+	  display: none;
+	}
+
+	.navBar a {
+	  color: white;
+	  padding: 10px 10px;
+	  text-decoration: none;
+	  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	  font-size: 17px;
+	  display: block;
+	}
+
+	.navBar a.icon {
+	  /*background: white;*/
+	  display: block;
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+
+	.navBar a:hover {;
+	}
+	
+	
+	/* Get the sidebar navigation working and then add the pictures */
+	
+}
+
+	/* These are the specific settings if the screen is has a minimum width of 861px  */
+@media screen and (min-width: 861px) 
+{
+	/*.navBar {
+			
+		}*/
+}
